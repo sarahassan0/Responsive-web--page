@@ -1,0 +1,69 @@
+:root{
+    --mainColor: #ffffff;
+    --secondColor: #28d7cc;
+    --thirdColor:
+    --bgColor:
+    --padding: 20px
+
+}
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html{
+  
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    padding:var(--padding);
+
+}
+.bg-img{
+    background-image: url(../imgs/sunrise-gb8aa50489_1920.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height:100vh
+}
+header{
+    color: var(--mainColor);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items:center;
+    padding-top: 1%;
+}
+h1.logo{
+    color: var(--secondColor);
+    font-size: 2.5rem;
+    width: 10rem;
+    font-family:'DynaPuff', cursive;  
+    letter-spacing: 15px;
+    justify-content: start;
+    text-align: start;
+    padding-left: 0rem;
+
+}
+h1>span{
+color:var(--mainColor);
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    font-weight: bolder;
+    list-style-type: none;
+    justify-content:center;
+    text-align:justify;
+}
+li{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+li:hover{
+    cursor: pointer;
+    color:var(--secondColor) ;
+    
+}
+
