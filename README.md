@@ -1,8 +1,8 @@
-#Responsive Web Page
+# Responsive Web Page
 
 
 ## A responsive hotel's landing page
-###this page contain:
+### this page contain:
 - HTML
 - CSS
 
