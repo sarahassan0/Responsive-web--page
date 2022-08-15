@@ -1,10 +1,6 @@
 :root{
     --mainColor: #ffffff;
     --secondColor: #28d7cc;
-    --thirdColor:
-    --bgColor:
-    --padding: 20px
-
 }
 * {
 margin: 0;
@@ -16,14 +12,19 @@ html{
     font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
     padding:var(--padding);
-
+    color: var(--mainColor);
 }
 .bg-img{
     background-image: url(../imgs/sunrise-gb8aa50489_1920.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height:100vh
+    height:100vh;
+}
+div.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 header{
     color: var(--mainColor);
@@ -42,7 +43,6 @@ h1.logo{
     justify-content: start;
     text-align: start;
     padding-left: 0rem;
-
 }
 h1>span{
 color:var(--mainColor);
@@ -50,20 +50,87 @@ color:var(--mainColor);
 ul{
     display: flex;
     flex-wrap: wrap;
-    font-size: 1rem;
+    font-size: .9rem;
     font-weight: bolder;
     list-style-type: none;
     justify-content:center;
     text-align:justify;
 }
 li{
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: .6rem;
+    padding-right: .6rem;
     
 }
 li:hover{
     cursor: pointer;
     color:var(--secondColor) ;
-    
+    transition: .2s;
+}
+main.main {
+    flex-grow: 1;
+    display:flex;
+    flex-direction: column;
+    justify-content: center center;
+    align-items: center; 
+}
+form{
+    width: 100vw;
+    display: flex;
+    padding: .9rem;
+    margin-right: 7px;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    margin-right: 7px;
+    width: 50%;
+    height: 1.6rem;
+    border-radius: 10px;
+    padding: 7px;
+}
+span i{
+    font-weight: bolder;
+    color:var(--mainColor);
+}
+div.description{
+    display:flex;
+    flex-direction: column;
+    flex-grow: 1;
+    font-family: 'Josefin Sans', sans-serif;
+    justify-content:center;
+    text-align: start;
+    font-size: .8rem; 
+    padding-top: 10px; */
+}
+div h1.now{
+    color: var(--secondColor);
+    font-weight: bolder;
 }
 
+footer{
+    display: flex;
+    height: 1.3rem;
+    background-color: rgba(11, 11, 10, 0.281);
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+
+a.contact-us{
+    margin: 3px;
+    color:var(--mainColor);
+    font-weight: bolder;
+    width: 30px;
+    height: 10px;
+    text-decoration: none;
+}
+.contact-us:hover{
+    color: var(--secondColor);
+    background-color: transparent;
+}
+#sm{
+    width: 100%;
+    justify-items: center center;
+    font-size: 1,1rem;
+}
