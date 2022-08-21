@@ -61,7 +61,7 @@ li{
     padding-right: .6rem;
     
 }
-li:hover{
+li:hover, .contact-us:hover{
     cursor: pointer;
     color:var(--secondColor) ;
     transition: .2s;
@@ -89,7 +89,7 @@ input{
     border-radius: 10px;
     padding: 7px;
 }
-span i{
+#search-icon{
     font-weight: bolder;
     color:var(--mainColor);
 }
@@ -101,7 +101,7 @@ div.description{
     justify-content:center;
     text-align: start;
     font-size: .8rem; 
-    padding-top: 10px; */
+    padding-top: 10px; 
 }
 div h1.now{
     color: var(--secondColor);
@@ -117,6 +117,11 @@ footer{
     align-items: center;
 }
 
+#footer-list{
+    width: 100%;
+    justify-items: center center;
+    font-size: 1,1rem;
+}
 a.contact-us{
     margin: 3px;
     color:var(--mainColor);
@@ -125,12 +130,4 @@ a.contact-us{
     height: 10px;
     text-decoration: none;
 }
-.contact-us:hover{
-    color: var(--secondColor);
-    background-color: transparent;
-}
-#sm{
-    width: 100%;
-    justify-items: center center;
-    font-size: 1,1rem;
-}
+
